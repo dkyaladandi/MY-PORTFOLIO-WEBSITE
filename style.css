@@ -1,0 +1,118 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body {
+  font-family:'Segoe UI',Tahoma,sans-serif;
+  background:#0f0f0f;
+  color:#ddd;
+  min-height:100vh;
+  line-height:1.6;
+}
+header {
+  background:transparent;
+  padding:20px 10%;
+}
+.navbar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.logo {
+  font-weight:bold;
+  font-size:2.4rem;
+  color:#00bfff;
+}
+.nav-links {
+  list-style:none;
+  display:flex;
+  gap:30px;
+  font-weight: 600;
+  font-size: 1.27rem;
+}
+.nav-links a {
+  text-decoration:none;
+  color:#ddd;
+  transition:color .3s;
+}
+.nav-links a:hover {color:#00bfff;text-decoration: underline;}
+#app {padding:60px 10%;}
+.hero {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:30px;
+}
+.hero-text {max-width:550px;}
+.hero-text h1 {font-size:2.5rem;margin-bottom:10px;}
+.highlight {color:#5b8dfb;}
+.hero-text h2 {font-size:1.5rem;margin-bottom:20px;color:#aaa;}
+.hero-text p {margin-bottom:30px;color:#bbb;}
+.buttons {
+  display:flex;
+  gap:15px;
+  margin-bottom:20px;
+}
+button.primary,button.secondary {
+  padding:10px 20px;
+  border-radius:25px;
+  border:none;
+  cursor:pointer;
+  font-size:1rem;
+}
+button.primary {
+  background:linear-gradient(90deg,#00bfff,#5b8dfb);
+  color:white;
+}
+button.secondary {
+  border:1px solid #5b8dfb;
+  background:transparent;
+  color:#5b8dfb;
+}
+button.primary:hover{
+  background: skyblue;
+  color: #5b8dfb;
+}
+button.secondary:hover {
+  background:#5b8dfb;color:white;
+}
+.social a {
+  color:#ccc;
+  font-size:1.2rem;
+  margin-right:15px;
+  transition:color .3s;
+}
+.social a:hover {color:#5b8dfb;}
+.hero-img img {
+  width:300px;
+  height:300px;
+  border-radius:50%;
+  object-fit:cover;
+  border:4px solid #5b8dfb;
+}
+section h2 {font-size:2rem;margin-bottom:20px;color:#5b8dfb;}
+section ul {list-style:disc;margin-left:20px;}
+section p,section li {margin-bottom:10px;}
+.abc{
+  display: flex;
+justify-content: space-between;
+gap:70px;
+}
+.phone{
+  font-size: 9rem;
+  margin-right: 190px;
+}
+/* Make the skill logos line up neatly */
+.fonts {
+  margin-top: 30px;
+  display: flex;           /* arrange icons in a row */
+  flex-wrap: wrap;         /* wrap to next line if too many */
+  gap: 20px;               /* spacing between them */
+  justify-content: flex-start;
+  margin-right: 34px; /* center them */
+}
+
+/* Control the size of the logos */
+.fonts img {
+  
+  width: 130px;   /* pick the size you want */
+  height: 130px;  /* or use height:auto for natural aspect ratio */
+  object-fit: contain;
+}

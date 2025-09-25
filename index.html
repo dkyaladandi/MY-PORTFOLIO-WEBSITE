@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dilip Kumar Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MY PORTFOLIO</div>
+      <ul class="nav-links">
+        <li><a href="#" data-page="home">Home</a></li>
+        <li><a href="#" data-page="about">About</a></li>
+        <li><a href="#" data-page="skills">Skills</a></li>
+        <li><a href="#" data-page="projects">Projects</a></li>
+        <li><a href="#" data-page="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <!-- Templates -->
+  <template id="home">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="highlight">Dilip</span></h1>
+        <h2>Frontend Developer</h2>
+        <p>Aspiring Web Developer with solid understanding in web development and real-time applications.
+      Developed and deployed multiple real-world projects, including chat apps, e-commerce pages, and games with proficiency in Java, HTML, CSS, and JavaScript.
+      Committed to producing maintainable and efficient code following industry best practices.</p>
+        <div class="buttons">
+          <button class="primary" data-page="contact">Hire Me</button>
+          <button class="secondary" data-page="projects">View Work</button>
+        </div>
+        <div class="social">
+          <a href="https://github.com/dkyaladandi"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/dilip-yaladandi-993a402a2/"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="Dp.jpeg" alt="Profile photo"/>
+      </div>
+    </section>
+  </template>
+
+  <template id="about">
+    <section>
+      <h2>ABOUT ME</h2>
+      <p>Entry-level Java developer with strong foundations in web development and real-time applications. Proficient in Java, HTML, CSS, and JavaScript with hands-on experience building projects such as chat applications, games, and e-commerce clones. Passionate about writing clean, efficient code and eager to contribute to innovative software solutions..</p>
+      <h2> CERTIFICATIONS</h2>
+      <ul>
+<P>
+  <li>HTML,CSS BOOTCAMP(CODEKARO)</li>
+  <li>JAVASCRIPT BOOTCAMP(RAJDEEP DHAKAD)</li>
+  
+</P>
+      </ul>
+      <h2>EDUACTION</h2>
+      <h3>10TH CLASS(2018-19)</h3>
+      <p>
+ CGPA-10/10 (WORD AND DEED HIGH SCHOOL)
+</p>
+      <h3>INTERMEDIATE(2019-21)</h3>
+      <p>
+ MARKS-968/1000(SRI CHAITANYA JUNIOR KALASHALA)
+</p>
+      <h3>B.TECH(2021-25)</h3>
+      <p>
+ CGPA-7.5(NO BACKLOGS)(GURU NANAK INSTITUTIONS AND TECHNICAL CAMPUS)
+</p>
+      
+    </section>
+  </template>
+
+  <template id="skills">
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> Java (Proficient), HTML (Advanced), CSS (Advanced), JavaScript (Proficient)</li>
+        <li><strong>Web Technologies:</strong> REST APIs (basic), WebSockets (Socket.io)</li>
+        <li><strong>Database/Tools:</strong> MySQL, Git & GitHub</li>
+        <li><strong>Deployment:</strong> GitHub Pages, VS Code, Netlify</li>
+        <li><strong>Soft Skills:</strong> Effective communication, icebreaking, debugging & identifying performance bottlenecks</li>
+      </ul>
+      <div class="container">
+      <div class="fonts">
+      <div class="HTML">
+         <img src="html.jpeg"/>
+      </div>
+      <div class="CSS">
+         <img src="css.jpeg"/>
+      </div>
+      <div class="JAVASCRIPT">
+        <img src="js.jpeg"/>
+      </div>
+      <div class="JAVA">
+         <img src="Java.jpeg"/>
+      </div>
+      <div class="MYSQL">
+        <img src="Mysql.jpeg"/>
+      </div>
+      <div class="VSCODE">
+        <img src="vscode.jpeg"/>
+      </div>
+        <div class="GITHUB">
+          <img src="Github.jpeg"/>
+        </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="projects">
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h1>REAL TIME CHAT APPLICATIONS</h1><a href="https://github.com/dkyaladandi/REAL-TIME-CHAT-APPLICATIONS.git" >(Github link)</a> – Multi-user chat with WebSockets and responsive UI.</li><p>Developed a multi-user chat platform with instant messaging using HTML, CSS, JavaScript, and
+WebSockets (Socket.io/Firebase).
+Enhanced user experience through responsive UI design,Optimized page load times to under 1.5
+seconds by implementing efficient asset loading and caching strategies.</p>
+      <h1>BASIC CALCULATOR </h1>  <li><a href="https://github.com/dkyaladandi/CALCULATOR-USING-HTML-CSS-JAVASCRIPT.git">(Github link)</a> – Browser-based calculator with keyboard input.</li><p>Built a browser-based calculator supporting basic arithmetic operations with keyboard input
+support.
+Modularized JavaScript functions to reduce code by 10℅ deployed on GitHub Pages.</p>
+      <h1>AMAZON CLONE PAGE</h1>  <li><a href="https://github.com/dkyaladandi/AMAZON-CLONE.git">(Github link)</a> – Mobile-optimized, semantic HTML5 & modern CSS.</li><p>Designed and coded an accurate, responsive Amazon homepage clone adhering to accessibility
+standards, a fully responsive clone using semantic HTML5 and modern CSS.
+Engineered a mobile-optimized Amazon homepage clone with semantic HTML5 and modern
+CSS, decreasing page load time by 25% and exceeding industry standards for mobile-first design
+principles.
+</p>
+       <h1>MYNTRA CLONE PAGE</h1> <li><a href="https://github.com/dkyaladandi/Myntra-Clone-page.git" >(Github link)</a> – Responsive landing page with interactive elements.</li><p>Recreated Myntra’s landing page with flexbox/grid layouts and responsive design best practices.
+Added interactive elements (search bar, navigation, hover effects).</p>
+       <h1>ATM MACHINE </h1> <li><a href="https://github.com/dkyaladandi/Atm-machine.git" >(Github Link)</a> – Simulated ATM operations with OOP principles.</li><p>Simulated core ATM operations (balance enquiry, withdrawals, PIN validation) in Java using OOP
+principles.
+Reduced code duplication and improved transaction handling per operation.</p>
+       <h1>TIC-TAC-TOE</h1> <li><a href="https://github.com/dkyaladandi/Tik-Tak-toe.git" >(Github Link)</a> – Two-player Java game with high code coverage.</li><p>Engineered a two-player Tic-Tac-Toe game in Java, reducing code duplication by 25% through
+implementation of object-oriented principles and achieving a code coverage of 95% through
+comprehensive unit testing.
+Achieved 15% faster execution vs baseline</p>
+       <h1>RECIPE APP USING MEALDB API</h1> <li><a href="https://github.com/dkyaladandi/A-RECIPE-APP-USING-API-MEALDB-" >(Github Link)</a> – Dynamic recipe explorer fetching 1,000+ recipes.</li><p>Built a dynamic Recipe Explorer App fetching 1,000+ recipes from TheMealDB API, with
+interactive popups displaying up to 20 ingredients and step-by-step instructions per recipe.
+Developed a responsive web app featuring real-time search, dynamically rendering 10–20 recipe
+cards per query in a grid layout with hover effects and styled scrollbars.
+Designed a responsive grid layout with polished UI, hover effects, and custom scrollbars to
+enhance user experience.
+</p>
+      </ul>
+    </section>
+  </template>
+
+  <template id="contact">
+    <section>
+      <div class="abc">
+        <div class="Details">
+      <h2>Contact</h2>
+      <p>Yaladandi Dilip Kumar<br>2-2-282/b, Mustafa Nagar, Khammam, 507001</p>
+      <p><a href="mailto:dk6166460@gmail.com">dk6166460@gmail.com</a> | 9391756518</p>
+      <p>
+        <a href="https://www.linkedin.com/in/dilip-yaladandi-993a402a2/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/dkyaladandi" target="_blank">GitHub</a>
+      </p>
+      </div>
+      <div class="phone">
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      </div>
+    </section>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
